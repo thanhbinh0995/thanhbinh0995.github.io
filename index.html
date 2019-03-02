@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>WEMU Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link rel="stylesheet" href="css/jInvertScroll.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <a href="#"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div class="nav-bar">
+            <ul class="nav-bar-list">
+                <li class="nav-item"><a class="text" href="#">Features</a></li>
+                <li class="nav-item"><a class="text" href="#">Solutions</a></li>
+                <li class="nav-item"><a class="text" href="#">Pricing</a></li>
+            </ul>
+            <ul class="right-nav">
+                <li class="nav-item"><a class="text" href="#">Login</a></li>
+                <li class="nav-item"><a class="text sign-up" href="#">Sign up</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="front scroll">
+        <div class="home page">
+            <h1 class="title">WEMU</h1>
+            <p class="description">A platform to help you and your business grow!</p>
+            <p class="link">Scroll to learn more or <a href="#">watch the video</a></p>
+        </div>
+
+        <div class="image-container image-1 page">
+            <img src="img/ipad.png" alt="">
+        </div>
+
+        <div class="part part-1 page">
+            <h2 class="title">Take care of yourself, and we’ll take care of the rest.</h2>
+            <p class="description">
+                Starting a business is challenging. You need to wear many hats leaving little time to take care of
+                yourself. From handling your customers, the invoicing, and everything else, managing your business can
+                be stressful. We understand your needs, that's
+                why we created Wemu to be your business companion.
+            </p>
+        </div>
+
+        <div class="image-container image-2 page">
+            <img src="img/girl.png" alt="">
+        </div>
+
+        <div class="image-container image-3 page">
+            <img src="img/man.png" alt="">
+        </div>
+
+        <div class="part part-2 page">
+            <h2 class="title">Earn More, Do Less</h2>
+            <p class="description">Wemu, has all the components you need, such as a Point of Sale system, Customer
+                Management, Product Inventory, and many more. It allows you to do what you need efficiently with one
+                app.</p>
+        </div>
+
+        <div class="image-container image-4 page">
+            <img src="img/iphone.png" alt="">
+        </div>
+
+        <div class="part part-3 page">
+            <h2 class="title">Get Stuff Done!!</h2>
+            <p class="description">Wemu has reminders to keep you on track and <br>
+                on top of things. Remember, it's not just a software for data input, it's your companion. Wemu helps you
+                to be productive and motivated.</p>
+        </div>
+
+        <div class="image-container image-5 page">
+            <img src="img/girl2.png" alt="">
+        </div>
+
+        <div class="image-container image-6 page">
+            <img src="img/guy.png" alt="">
+        </div>
+
+        <div class="part part-4 page">
+            <h2 class="title">Time to grow</h2>
+            <p class="description">Wemu aims for solopreneurs or small business owners to prosper. When you let Wemu
+                become your companion, you get access to Discover app too. In Discover your business will be discovered
+                by your local community allowing you to find new customers and create new partnerships.</p>
+        </div>
+
+        <div class="image-container image-7 page">
+            <img src="img/laptop.png" alt="">
+        </div>
+
+        <div class="part-5 sign-up-container page">
+            <form method="POST" class="sign-up-form" id="sign-up-form">
+                <h2 class="title">Sign Up</h2>
+                <div class="form-group test">
+                    <label for="fullName">Full name</label>
+                    <input type="text" name="fullName" id="fullName" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="fullName">Business Name</label>
+                    <input type="text" name="businessName" id="businessName" placeholder="Business Name">
+                </div>
+                <div class="form-group email-container">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Email">
+                    <input class="end-link" id="end-link" value=".wemu.co" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="fullName">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+                <div class="form-submit">
+                    <input type="submit" name="submit" id="submit" class="submit" value="Sign up">
+                </div>
+            </form>
+            <div class="sign-up-social-container">
+                <div class="social-link google mr-social">
+                    <a href="#" target="_blank">Sign Up with Google</a>
+                </div>
+                <div class="social-link linkedIn">
+                    <a href="#" target="_blank">Sign Up with Linked In</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jInvertScroll.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript">
+        (function ($) {
+            $.jInvertScroll(['.scroll']);
+        }(jQuery));
+
+        $(document).ready(function () {
+            $('html, body').animate({scrollTop: 0}, 20);
+        });
+    </script>
+</div>
+</body>
+</html>
