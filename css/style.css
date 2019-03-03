@@ -58,7 +58,7 @@ a {
     /*box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.5);*/
     color: #4A4A4A;
     font-family: 'WorkSans', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 19px;
     text-align: center;
@@ -70,7 +70,7 @@ a {
 
 .right-nav {
     float: right;
-    margin-right: 30px;
+    margin-right: 0;
 }
 
 .right-nav .nav-item {
@@ -92,7 +92,7 @@ a {
 .front {
     z-index: 500;
     top: 0;
-    width: 6500px;
+    width: 7500px;
 }
 
 .page {
@@ -103,27 +103,30 @@ a {
 }
 
 .home {
-    left: 5%;
+    left: 5.5%;
     top: 41.5%;
+    max-width: 12%;
 }
 
 .home .title {
     /*box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.21);*/
     color: #000;
     margin: 0 0 20px;
+    font-size: 2.675rem;
 }
 
 .home .description {
     margin: 0 0 30px;
     border-bottom: 1px solid #D0021B;
     padding-bottom: 5px;
+    font-size: 1.5rem;
 }
 
 .home .link {
     /*box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.5);*/
     color: #4A4A4A;
     font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 19px;
@@ -138,69 +141,73 @@ a {
 }
 
 .image-1 {
-    left: 11%;
+    left: 13%;
     top: 36%;
 }
 
 .image-1 img {
     height: auto;
-    width: 100%;
+    width: 120%;
 }
 
 .part-1 {
-    top: 22%;
-    left: 17.3%;
-    max-width: 600px;
+    top: 24%;
+    left: 19.5%;
+    max-width: 8.5%;
 }
 
 .part .title {
     /*box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.5);*/
     color: #000000;
     font-family: 'Oxygen', sans-serif;
-    font-size: 24px;
+    font-size: 1.675rem;
     font-weight: 400;
     letter-spacing: 2px;
-    line-height: 29px;
+    line-height: 2rem;
     width: 509px;
     text-align: left;
     margin: 0 0 20px;
 }
 
+.part .title span {
+    border-bottom: 1px solid #D0021B;
+}
+
 .part .description {
     color: #4A4A4A;
     font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: 1.33px;
-    line-height: 21px;
+    line-height: 1.2rem;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 
 .image-2 {
-    left: 27%;
+    left: 29.5%;
     top: 21%;
 }
 
 .image-2 img {
-    height: 360px;
-    width: auto;
+    height: auto;
+    width: 52%;
 }
 
 .image-3 {
-    left: 32%;
+    left: 35%;
     top: 10%;
 }
 
 .image-3 img {
-    height: 360px;
-    width: auto;
+    height: auto;
+    width: 45%;
 }
 
 .part-2 {
-    left: 36.3%;
+    left: 39%;
     top: 28.3%;
-    max-width: 550px;
+    max-width: 7.5%;
 }
 
 .part-2 .description {
@@ -208,19 +215,19 @@ a {
 }
 
 .image-4 {
-    left: 44.5%;
+    left: 46.5%;
     top: 16.11%;
 }
 
 .image-4 img {
-    height: 360px;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 
 .part-3 {
     top: 27.83%;
-    left: 52%;
-    max-width: 510px;
+    left: 54%;
+    max-width: 7.8%;
 }
 
 .part-3 .description {
@@ -228,29 +235,29 @@ a {
 }
 
 .image-5 {
-    left: 60.5%;
+    left: 63%;
     top: 25.03%;
 }
 
 .image-5 img {
-    height: 360px;
-    width: auto;
+    height: auto;
+    width: 45%;
 }
 
 .image-6 {
-    left: 65%;
+    left: 68%;
     top: 12.89%;
 }
 
 .image-6 img {
-    height: 360px;
-    width: auto;
+    height: auto;
+    width: 45%;
 }
 
 .part-4 {
+    left: 72%;
     top: 31.84%;
-    left: 69.5%;
-    max-width: 510px;
+    max-width: 8%;
 }
 
 .part-4 .description {
@@ -258,28 +265,28 @@ a {
 }
 
 .image-7 {
-    left: 77.5%;
-    top: 13.96%;
+    left: 80%;
+    top: 25.96%;
 }
 
 .image-7 img {
-    height: 360px;
-    width: auto;
+    height: auto;
+    width: 120%;
 }
 
 .part-5 {
-    left: 88%;
+    left: 91%;
     top: 14%;
-    max-width: 510px;
+    max-width: 10%;
 }
 
 .part-5 .title {
     color: #000000;
     font-family: 'Oxygen', sans-serif;
-    font-size: 24px;
+    font-size: 1.675rem;
     font-weight: 400;
     letter-spacing: 2px;
-    line-height: 29px;
+    line-height: 2rem;
     text-align: left;
     margin: 0 0 30px;
     border-bottom: 3px solid #D0021B;
@@ -289,10 +296,10 @@ a {
 .part-5 label {
     color: #9B9B9B;
     font-family: 'Oxygen', sans-serif;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: 1.17px;
-    line-height: 17px;
+    line-height: 1rem;
     width: 509px;
     text-align: left;
     display: block;
@@ -302,15 +309,15 @@ a {
 .part-5 input {
     color: #000000;
     font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
+    font-size: 1.225rem;
     font-weight: 400;
     letter-spacing: 2px;
-    line-height: 19px;
+    line-height: 1.225rem;
     text-align: left;
     margin-bottom: 20px;
     border: none;
     border-bottom: 1px dashed #979797;
-    padding-bottom: 2px;
+    padding-bottom: 0.1rem;
     width: 100%;
 }
 
@@ -328,10 +335,10 @@ a {
 .part-5 .end-link {
     color: #4A90E2;
     font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
+    font-size: 1.225rem;
     font-weight: 400;
     letter-spacing: 2px;
-    line-height: 19px;
+    line-height: 1.225rem;
     text-align: right;
     width: 100px !important;
     border: 0;
@@ -339,7 +346,7 @@ a {
     position: absolute;
     top: 25px;
     right: 0;
-    padding-bottom: 4px;
+    padding-bottom: 0.2rem;
     border-bottom: 1px dashed #979797;
 }
 
@@ -369,7 +376,7 @@ a {
 
 .part-5 .sign-up-social-container {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .part-5 .sign-up-social-container .social-link {
@@ -395,13 +402,31 @@ a {
     border: 1px solid #4277BD;
 }
 
-@media screen and (min-width: 1024px) {
+
+@media only screen and (max-width: 1920px) {
 
 }
 
-@media screen and (min-width: 992px) {
+@media only screen and (max-width: 1680px) {
 
 }
+
+@media only screen and (max-width: 1600px) {
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+}
+
+@media only screen and (max-width: 1366px) {
+
+}
+
+@media only screen and (max-width: 1268px) {
+
+}
+
 
 @media only screen and (max-width: 1024px) {
     .front {
@@ -420,10 +445,7 @@ a {
 
 }
 
-@media only screen and (min-width: 480px) and (max-width: 640px) {
+@media only screen and (max-width: 400px) {
 
-}
-
-@media only screen and (max-width: 480px) {
 
 }
