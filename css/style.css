@@ -335,12 +335,11 @@ a {
     font-size: 1.15rem;
     font-weight: 400;
     letter-spacing: 2px;
-    line-height: 1.225rem;
     text-align: left;
     margin-bottom: 2rem;
     border: none;
     border-bottom: 1px dashed #979797;
-    padding-bottom: 0.1rem;
+    padding-bottom: 0.3rem;
     width: 100%;
 }
 
