@@ -335,11 +335,12 @@ a {
     font-size: 1.15rem;
     font-weight: 400;
     letter-spacing: 2px;
+    line-height: 1.225rem;
     text-align: left;
     margin-bottom: 2rem;
     border: none;
     border-bottom: 1px dashed #979797;
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.1rem;
     width: 100%;
 }
 
@@ -537,40 +538,49 @@ a {
         top: 0;
         width: 9000px;
     }
+
     .image-1 {
         left: 14%;
         top: 36%;
     }
+
     .image-1 img {
         height: auto;
         width: 135%;
     }
+
     .part-1 {
         top: 25%;
         left: 20%;
         max-width: 8.5%;
     }
+
     .image-2 {
         left: 30.5%;
         top: 21%;
     }
+
     .image-2 img {
         height: auto;
         width: 70%;
     }
+
     .image-3 {
         left: 36%;
         top: 12%;
     }
+
     .image-3 img {
         height: auto;
         width: 55%;
     }
+
     .part-2 {
         left: 40%;
         top: 20%;
         max-width: 8.5%;
     }
+
     .part .title {
         font-size: 1.5rem;
     }
@@ -584,11 +594,13 @@ a {
         height: auto;
         width: 110%;
     }
+
     .part-3 {
         top: 42.83%;
         left: 54%;
         max-width: 7.8%;
     }
+
     .image-5 {
         left: 63%;
         top: 25.03%;
@@ -598,6 +610,7 @@ a {
         height: auto;
         width: 60%;
     }
+
     .image-6 {
         left: 68.5%;
         top: 12.89%;
@@ -651,6 +664,7 @@ a {
     .image-1 {
         left: 14%;
     }
+
     .image-1 img {
         width: 130%;
     }
@@ -760,13 +774,168 @@ a {
     }
 }
 
+/*navbar setting on desktop*/
+
+@media only screen and (min-width: 1268px) {
+    .nav-bar, .logo {
+        display: block;
+    }
+
+    .nav-bar-mobile {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+/*navbar setting on mobile*/
+
+@media only screen and (max-width: 1268px) {
+    .header {
+        background: #ffffff;
+    }
+
+    .nav-bar, .logo {
+        display: none;
+    }
+
+    .nav-bar-mobile {
+        display: block;
+        position: relative;
+        height: 150px;
+    }
+
+    .logo-mobile {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .logo-mobile img {
+        height: 50px;
+    }
+
+    .icon-chev-down {
+        position: absolute;
+        left: calc(50% - 40px);
+        top: 20px;
+    }
+
+    .icon-chev-down img {
+        height: 80px;
+    }
+
+    .list-item-mobile {
+        display: none;
+    }
+
+    .right-item-nav-mobile {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+
+    .sign-up {
+        margin-top: 20px;
+    }
+
+    .sign-up a {
+        text-decoration: none;
+        font-size: 30pt;
+        border: 1px solid #4A4A4A;
+        border-radius: 60px;
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+        padding: 12px 46px;
+        color: #000;
+    }
+
+    .front {
+        margin-top: 150px;
+    }
+
+    .page {
+        max-width: 100%;
+        padding-left: 20pt;
+    }
+
+    .description, .title span {
+        border-bottom: 0 !important;
+    }
+
+    .image-container img {
+        height: auto;
+        width: 100%;
+    }
+
+    .part .description {
+        margin-left: 0;
+    }
+
+    .part-2 .checked-container .item .image-checked {
+        width: 30pt;
+        top: calc(0.6rem - 15pt);
+    }
+
+    .part-2 .checked-container .item .description {
+        margin-left: 50pt;
+    }
+
+    .image-3, .image-4, .image-7, .part-5 {
+        display: none;
+    }
+
+    .sign-up-mobile {
+        padding: 5% 20pt 10%;
+        background: #4A90E2;
+        color: #fff;
+    }
+
+    .sign-up-mobile .email {
+        width: 100%;
+        height: 60pt;
+        border-radius: 40pt;
+        background: #4A90E2;
+        color: #fff;
+        text-align: center;
+    }
+
+    .sign-up-mobile input {
+        font-size: 23pt;
+    }
+
+    .sign-up-mobile .email::placeholder {
+        color: #fff;
+    }
+
+    .sign-up-mobile .submit {
+        border: none;
+        color: #fff;
+        padding: 0.875rem 0.5rem;
+        text-align: center;
+        background-color: #2D77CD;
+        border-radius: 2rem;
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+        width: 100%;
+    }
+
+    .form-submit {
+        margin-top: 20pt;
+    }
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1268px) {
     html, body {
-        font-size: 16px;
+        font-size: 25pt;
     }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
+    html, body {
+        font-size: 23pt;
+    }
+
     .front {
         position: relative;
         width: auto;
@@ -780,9 +949,13 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
-
+    html, body {
+        font-size: 20pt;
+    }
 }
 
 @media only screen and (max-width: 400px) {
-
+    html, body {
+        font-size: 18pt;
+    }
 }
