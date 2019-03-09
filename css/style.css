@@ -13,6 +13,7 @@ h1, h2, h3, p {
 
 a {
     color: #238acb;
+    text-decoration: none;
 }
 
 .inline {
@@ -788,11 +789,19 @@ a {
     .mobile {
         display: none;
     }
+
+    .desktop {
+        display: block;
+    }
 }
 
 /*navbar setting on mobile*/
 
 @media only screen and (max-width: 1268px) {
+    .desktop {
+        display: none;
+    }
+
     .header {
         background: #ffffff;
     }
@@ -804,13 +813,13 @@ a {
     .nav-bar-mobile {
         display: block;
         position: relative;
-        height: 150px;
+        height: 150pt;
     }
 
     .logo-mobile {
         position: absolute;
-        top: 30px;
-        left: 30px;
+        top: 50pt;
+        left: 20pt;
     }
 
     .logo-mobile img {
@@ -820,21 +829,47 @@ a {
     .icon-chev-down {
         position: absolute;
         left: calc(50% - 40px);
-        top: 20px;
+        top: 50pt;
     }
 
     .icon-chev-down img {
         height: 80px;
     }
 
-    .list-item-mobile {
+    .navbar-collapse.in img {
+        transform: rotate(180deg);
+        /*animation: rota 0.5s linear;*/
+    }
+
+    .navbar-toggle.collapsed {
         display: none;
+    }
+
+    .navbar-toggle.in {
+        display: block;
+        position: fixed;
+        background: #fff;
+        z-index: 999;
+        margin-top: 120pt;
+        width: 100%;
+    }
+
+    .nav-item {
+        width: 100%;
+        padding: 20pt 0;
+        text-align: center;
+    }
+
+    .nav-item .text {
+        line-height: 32pt;
+        text-align: center;
+        font-size: 30pt;
     }
 
     .right-item-nav-mobile {
         position: absolute;
-        right: 30px;
-        top: 20px;
+        right: 20pt;
+        top: 50pt;
     }
 
     .sign-up {
@@ -852,12 +887,37 @@ a {
     }
 
     .front {
-        margin-top: 150px;
+        margin-top: 350pt;
     }
 
     .page {
         max-width: 100%;
         padding-left: 20pt;
+    }
+
+    .home .title {
+        font-size: 90pt;
+        margin-bottom: 20pt;
+    }
+
+    .home .description, .part .title {
+        font-size: 30pt;
+        color: #000000;
+        word-spacing: 6.33pt;
+        font-weight: 400;
+    }
+
+    .part .description {
+        font-size: 24pt;
+        font-weight: 400;
+        line-height: 33pt;
+        word-spacing: 1.16pt;
+        margin: 20pt 0;
+    }
+
+    .home .description {
+        margin-right: 25%;
+
     }
 
     .description, .title span {
@@ -869,17 +929,55 @@ a {
         width: 100%;
     }
 
+    .image-custom {
+        background: url('../img/ipad.png') no-repeat;
+        width: 715pt;
+        height: 656pt;
+        background-size: 1320pt 643pt;
+        z-index: 0;
+        position: relative;
+        left: 20pt;
+        margin: 0;
+    }
+
+    .home-link-mobile {
+        top: -40pt;
+    }
+
+    .home-link-mobile .link {
+        margin: 0 0 20pt;
+        color: #4A4A4A;
+        font-size: 12pt;
+    }
+
+    .image-1 {
+        display: none;
+    }
+
+    .part {
+        margin-top: 140pt;
+    }
+
     .part .description {
         margin-left: 0;
     }
 
+    .part-2 .checked-container {
+        margin-top: 40pt;
+    }
+
+    .part-2 .checked-container .item {
+        padding-bottom: 20pt;
+    }
+
     .part-2 .checked-container .item .image-checked {
         width: 30pt;
-        top: calc(0.6rem - 15pt);
+        top: 5pt;
+        /*top: calc((100% - 20pt - 30pt) / 2);*/
     }
 
     .part-2 .checked-container .item .description {
-        margin-left: 50pt;
+        margin: 0 60pt;
     }
 
     .image-3, .image-4, .image-7, .part-5 {
@@ -887,15 +985,27 @@ a {
     }
 
     .sign-up-mobile {
-        padding: 5% 20pt 10%;
+        margin-top: 140pt;
+        padding: 5% 40pt 10%;
         background: #4A90E2;
         color: #fff;
+    }
+
+    .sign-up-mobile .title {
+        font-size: 30pt;
+        font-weight: normal;
+        margin-bottom: 5pt;
+    }
+
+    .sign-up-mobile .description {
+        margin: 0 0 50pt;
     }
 
     .sign-up-mobile .email {
         width: 100%;
         height: 60pt;
         border-radius: 40pt;
+        border: 1px solid #fff;
         background: #4A90E2;
         color: #fff;
         text-align: center;
