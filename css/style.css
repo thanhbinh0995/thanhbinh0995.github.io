@@ -1039,6 +1039,10 @@ a {
     html, body {
         font-size: 25pt;
     }
+
+    .home-link-mobile .link {
+        font-size: 26pt;
+    }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
@@ -1055,6 +1059,10 @@ a {
         position: relative;
         left: auto;
         top: auto;
+    }
+
+    .home-link-mobile .link {
+        font-size: 26pt;
     }
 }
 
