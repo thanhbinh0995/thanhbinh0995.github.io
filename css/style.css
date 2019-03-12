@@ -184,7 +184,6 @@ a {
     letter-spacing: 1.33px;
     line-height: 1.2rem;
     text-align: left;
-    margin-left: 12%;
 }
 
 .image-2 {
@@ -421,10 +420,6 @@ a {
         width: 100%;
     }
 
-    .part .description {
-        margin-left: 15%;
-    }
-
     .part-1 {
         top: 24%;
         left: 20%;
@@ -432,7 +427,7 @@ a {
     }
 
     .part .description {
-        margin-left: 10%;
+        margin-left: 0;
     }
 
     .image-2 {
