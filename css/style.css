@@ -36,11 +36,11 @@ a {
 .logo {
     position: absolute;
     left: 1rem;
-    top: 2rem;
+    top: 1.5rem;
 }
 
 .logo img {
-
+    width: 55%;
 }
 
 .nav-bar-list, .right-nav {
@@ -197,7 +197,7 @@ a {
 
 .image-3 {
     left: 35%;
-    top: 15%;
+    top: 17%;
 }
 
 .image-3 img {
@@ -394,8 +394,12 @@ a {
         font-size: 27px;
     }
 
+    .nav-bar-list, .right-nav {
+        margin-top: 1.5rem;
+    }
+
     .logo img {
-        width: 120%;
+        width: 55%;
     }
 
     .front {
@@ -440,7 +444,7 @@ a {
 
     .image-3 {
         left: 35.5%;
-        top: 15%;
+        top: 17%;
     }
 
     .image-3 img {
@@ -526,6 +530,10 @@ a {
         font-size: 22px;
     }
 
+    .nav-bar-list, .right-nav {
+        margin-top: 1.5rem;
+    }
+
     .front {
         z-index: 500;
         top: 0;
@@ -560,7 +568,7 @@ a {
 
     .image-3 {
         left: 36%;
-        top: 12%;
+        top: 17%;
     }
 
     .image-3 img {
@@ -680,7 +688,7 @@ a {
 
     .image-3 {
         left: 36%;
-        top: 12%;
+        top: 17%;
     }
 
     .image-3 img {
