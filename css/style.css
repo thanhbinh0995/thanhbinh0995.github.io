@@ -420,7 +420,7 @@ a {
 
     .part-1 {
         top: 24%;
-        left: 20%;
+        left: 20.5%;
         max-width: 8.5%;
     }
 
@@ -517,7 +517,7 @@ a {
     }
 
     .part-5 .title {
-        font-size: 1.2rem;
+        font-size: 24px;
     }
 }
 
@@ -544,7 +544,7 @@ a {
 
     .part-1 {
         top: 25%;
-        left: 20%;
+        left: 20.5%;
         max-width: 8.5%;
     }
 
@@ -575,7 +575,7 @@ a {
     }
 
     .part .title {
-        font-size: 1.5rem;
+        font-size: 24px;
     }
 
     .image-4 {
@@ -638,7 +638,7 @@ a {
     }
 
     .part-5 .title {
-        font-size: 1.5rem;
+        font-size: 24px;
     }
 
 }
@@ -664,7 +664,7 @@ a {
 
     .part-1 {
         top: 25%;
-        left: 20%;
+        left: 20.5%;
         max-width: 8.5%;
     }
 
@@ -744,7 +744,7 @@ a {
     }
 
     .part-5 .title {
-        font-size: 1.4rem;
+        font-size: 24px;
     }
 
 }
