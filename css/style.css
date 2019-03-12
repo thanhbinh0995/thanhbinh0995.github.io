@@ -120,16 +120,17 @@ a {
 }
 
 .home .description {
-    margin: 0 0 30px;
+    margin: 0 0 10px;
     padding-bottom: 5px;
-    font-size: 1.5rem;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .home .link {
     /*box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.5);*/
     color: #4A4A4A;
     font-family: 'Oxygen', sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 19px;
@@ -413,7 +414,7 @@ a {
     }
 
     .part .title {
-        font-size: 1.2rem;
+        font-size: 24px;
         width: 100%;
     }
 
