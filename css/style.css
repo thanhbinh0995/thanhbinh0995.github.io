@@ -121,7 +121,6 @@ a {
 
 .home .description {
     margin: 0 0 30px;
-    border-bottom: 1px solid #D0021B;
     padding-bottom: 5px;
     font-size: 1.5rem;
 }
@@ -164,25 +163,24 @@ a {
     /*box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.5);*/
     color: #000000;
     font-family: 'Oxygen', sans-serif;
-    font-size: 1.675rem;
+    font-size: 24px;
     font-weight: 400;
     letter-spacing: 2px;
-    line-height: 2rem;
+    line-height: 29px;
     text-align: left;
     margin: 0 0 20px;
 }
 
 .part .title span {
-    border-bottom: 1px solid #D0021B;
 }
 
 .part .description {
     color: #4A4A4A;
     font-family: 'Oxygen', sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 1.33px;
-    line-height: 1.2rem;
+    line-height: 21px;
     text-align: left;
 }
 
@@ -198,7 +196,7 @@ a {
 
 .image-3 {
     left: 35%;
-    top: 10%;
+    top: 15%;
 }
 
 .image-3 img {
@@ -305,23 +303,22 @@ a {
 .part-5 .title {
     color: #000000;
     font-family: 'Oxygen', sans-serif;
-    font-size: 1.675rem;
+    font-size: 24px;
     font-weight: 400;
     letter-spacing: 2px;
-    line-height: 2rem;
+    line-height: 29px;
     text-align: left;
     margin: 0 0 2rem;
-    border-bottom: 3px solid #D0021B;
     display: inline-block;
 }
 
 .part-5 label {
     color: #9B9B9B;
     font-family: 'Oxygen', sans-serif;
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: 1.17px;
-    line-height: 1rem;
+    line-height: 17px;
     width: 509px;
     text-align: left;
     display: block;
@@ -331,10 +328,10 @@ a {
 .part-5 input {
     color: #000000;
     font-family: 'Oxygen', sans-serif;
-    font-size: 1.15rem;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
-    line-height: 1.225rem;
+    line-height: 19px;
     text-align: left;
     margin-bottom: 2rem;
     border: none;
