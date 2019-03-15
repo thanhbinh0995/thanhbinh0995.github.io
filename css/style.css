@@ -426,11 +426,12 @@ a {
 
     .part .title {
         font-size: 24px;
+        line-height: 30px;
         width: 100%;
     }
 
     .part-1 {
-        top: 24%;
+        top: 33%;
         left: 20.5%;
         max-width: 8.5%;
     }
@@ -527,7 +528,7 @@ a {
 
     .part-5 {
         left: 91%;
-        top: 20%;
+        top: 28%;
         max-width: 10%;
     }
 
@@ -562,8 +563,8 @@ a {
     }
 
     .part-1 {
-        top: 25%;
-        left: 20.5%;
+        top: 30%;
+        left: 21%;
         max-width: 8.5%;
     }
 
@@ -682,13 +683,13 @@ a {
     }
 
     .part-1 {
-        top: 25%;
-        left: 20.5%;
+        top: 33%;
+        left: 22%;
         max-width: 8.5%;
     }
 
     .image-2 {
-        left: 29.5%;
+        left: 31%;
         top: 21%;
     }
 
@@ -698,7 +699,7 @@ a {
     }
 
     .image-3 {
-        left: 36%;
+        left: 36.5%;
         top: 17%;
     }
 
@@ -708,24 +709,24 @@ a {
     }
 
     .part-2 {
-        left: 40%;
+        left: 40.5%;
         top: 20%;
         max-width: 8.5%;
     }
 
     .image-4 {
-        left: 47.5%;
+        left: 48.5%;
         top: 16.11%;
     }
 
     .part-3 {
         top: 27.83%;
-        left: 54.5%;
+        left: 56.5%;
         max-width: 7.8%;
     }
 
     .image-5 {
-        left: 64%;
+        left: 64.5%;
         top: 25.03%;
     }
 
@@ -756,8 +757,8 @@ a {
     }
 
     .part-5 {
-        left: 90%;
-        top: 25%;
+        left: 90.5%;
+        top: 26%;
         max-width: 10%;
         margin: 0 2rem;
     }
@@ -783,6 +784,28 @@ a {
 @media only screen and (min-width: 1268px) and (max-width: 1366px) {
     html, body {
         font-size: 16px;
+    }
+
+    .part-1 {
+        top: 31%;
+        left: 20.5%;
+    }
+
+    .image-2 {
+        left: 30%;
+        top: 23%;
+    }
+
+    .image-2 img {
+        width: 60%;
+    }
+
+    .image-3 {
+        left: 35.5%;
+    }
+
+    .part-2 {
+        left: 39.5%;
     }
 }
 
