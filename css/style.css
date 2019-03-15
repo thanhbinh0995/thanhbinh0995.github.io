@@ -774,6 +774,10 @@ a {
         font-size: 22px;
     }
 
+    .nav-bar-list, .right-nav {
+        margin-top: 1.6rem;
+    }
+
     .front {
         z-index: 500;
         top: 0;
@@ -809,26 +813,6 @@ a {
     }
 }
 
-/*navbar setting on desktop*/
-
-@media only screen and (min-width: 1268px) {
-    .nav-bar, .logo {
-        display: block;
-    }
-
-    .nav-bar-mobile {
-        display: none;
-    }
-
-    .mobile {
-        display: none;
-    }
-
-    .desktop {
-        display: block;
-    }
-}
-
 @media only screen and (min-width: 1024px) and (max-width: 1268px) {
     html, body {
         font-size: 25pt;
@@ -837,6 +821,10 @@ a {
     .home-link-mobile .link {
         font-size: 26pt;
     }
+
+    .nav-bar-list, .right-nav {
+        margin-top: 1.2rem;
+    }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
@@ -844,6 +832,9 @@ a {
         font-size: 23pt;
     }
 
+    .nav-bar-list, .right-nav {
+        margin-top: 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 767px) {
