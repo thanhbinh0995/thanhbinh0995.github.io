@@ -227,12 +227,19 @@ a {
 .part-2 .checked-container .item .image-checked {
     width: 17px;
     position: absolute;
-    top: calc(0.6rem - 7px);
+    top: 5px;
     left: 0;
 }
 
 .part-2 .checked-container .item .description {
     margin-left: 30px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.part-2 .description, .part-2 .about {
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .image-4 {
@@ -336,7 +343,7 @@ a {
     text-align: left;
     margin-bottom: 2rem;
     border: none;
-    border-bottom: 1px dashed #979797;
+    border-bottom: 1px solid #979797;
     padding-bottom: 0.1rem;
     width: 100%;
 }
@@ -456,6 +463,10 @@ a {
         left: 40%;
         top: 20%;
         max-width: 9.5%;
+    }
+
+    .part-2 .title {
+        max-width: 70%;
     }
 
     .part-2 .ml-0 {
@@ -795,9 +806,62 @@ a {
     }
 }
 
-/*navbar setting on mobile*/
+@media only screen and (min-width: 1024px) and (max-width: 1268px) {
+    html, body {
+        font-size: 25pt;
+    }
 
-@media only screen and (max-width: 1268px) {
+    .home-link-mobile .link {
+        font-size: 26pt;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    html, body {
+        font-size: 23pt;
+    }
+
+}
+
+@media only screen and (min-width: 767px) {
+    .nav-bar, .logo {
+        display: block;
+    }
+
+    .mobile, .nav-bar-mobile  {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .nav-bar, .logo {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    html, body {
+        font-size: 20pt;
+    }
+
+    .front {
+        position: relative;
+        width: auto;
+        margin-top: 350pt;
+    }
+
     .desktop {
         display: none;
     }
@@ -813,27 +877,27 @@ a {
     .nav-bar-mobile {
         display: block;
         position: relative;
-        height: 150pt;
+        height: 60pt;
     }
 
     .logo-mobile {
         position: absolute;
-        top: 50pt;
+        top: 20pt;
         left: 20pt;
     }
 
     .logo-mobile img {
-        height: 50px;
+        height: 35px;
     }
 
     .icon-chev-down {
         position: absolute;
-        left: calc(50% - 40px);
-        top: 50pt;
+        left: calc(50% - 17.5px);
+        top: 20pt;
     }
 
     .icon-chev-down img {
-        height: 80px;
+        height: 35px;
     }
 
     .navbar-collapse.in img {
@@ -869,25 +933,25 @@ a {
     .right-item-nav-mobile {
         position: absolute;
         right: 20pt;
-        top: 50pt;
+        top: 0;
     }
 
     .sign-up {
-        margin-top: 20px;
+        margin-top: 20pt;
     }
 
     .sign-up a {
         text-decoration: none;
-        font-size: 30pt;
+        font-size: 6pt;
         border: 1px solid #4A4A4A;
         border-radius: 60px;
         box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
-        padding: 12px 46px;
+        padding: 8px 20px;
         color: #000;
     }
 
     .front {
-        margin-top: 350pt;
+        margin-top: 150pt;
     }
 
     .page {
@@ -896,27 +960,28 @@ a {
     }
 
     .home .title {
-        font-size: 90pt;
+        font-size: 20pt;
         margin-bottom: 20pt;
     }
 
     .home .description, .part .title {
-        font-size: 30pt;
+        font-size: 16pt;
         color: #000000;
-        word-spacing: 6.33pt;
+        word-spacing: normal;
         font-weight: 400;
     }
 
     .part .description {
-        font-size: 24pt;
+        font-size: 16pt;
         font-weight: 400;
-        line-height: 33pt;
-        word-spacing: 1.16pt;
+        line-height: 19pt;
+        word-spacing: normal;
         margin: 20pt 0;
+
     }
 
     .home .description {
-        margin-right: 25%;
+        margin-right: 0;
 
     }
 
@@ -929,14 +994,18 @@ a {
         width: 100%;
     }
 
+    .image-container a {
+        font-size: 13pt;
+    }
+
     .image-custom {
         background: url('../img/ipad.png') no-repeat;
-        width: 715pt;
-        height: 656pt;
-        background-size: 1320pt 643pt;
+        width: 306pt;
+        height: 150pt;
+        background-size: 306pt 150pt;
         z-index: 0;
         position: relative;
-        left: 20pt;
+        left: 107pt;
         margin: 0;
     }
 
@@ -955,11 +1024,7 @@ a {
     }
 
     .part {
-        margin-top: 140pt;
-    }
-
-    .part .description {
-        margin-left: 0;
+        margin-top: 100pt;
     }
 
     .part-2 .checked-container {
@@ -967,17 +1032,16 @@ a {
     }
 
     .part-2 .checked-container .item {
-        padding-bottom: 20pt;
+        padding-bottom: 10pt;
     }
 
     .part-2 .checked-container .item .image-checked {
-        width: 30pt;
-        top: 5pt;
-        /*top: calc((100% - 20pt - 30pt) / 2);*/
+        width: 15pt;
+        top: 3pt;
     }
 
     .part-2 .checked-container .item .description {
-        margin: 0 60pt;
+        margin: 0 30pt;
     }
 
     .image-3, .image-4, .image-7, .part-5 {
@@ -992,7 +1056,7 @@ a {
     }
 
     .sign-up-mobile .title {
-        font-size: 30pt;
+        font-size: 20pt;
         font-weight: normal;
         margin-bottom: 5pt;
     }
@@ -1012,7 +1076,7 @@ a {
     }
 
     .sign-up-mobile input {
-        font-size: 23pt;
+        font-size: 16pt;
     }
 
     .sign-up-mobile .email::placeholder {
@@ -1033,22 +1097,6 @@ a {
     .form-submit {
         margin-top: 20pt;
     }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1268px) {
-    html, body {
-        font-size: 25pt;
-    }
-
-    .home-link-mobile .link {
-        font-size: 26pt;
-    }
-}
-
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
-    html, body {
-        font-size: 23pt;
-    }
 
     .front {
         position: relative;
@@ -1059,16 +1107,6 @@ a {
         position: relative;
         left: auto;
         top: auto;
-    }
-
-    .home-link-mobile .link {
-        font-size: 26pt;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    html, body {
-        font-size: 20pt;
     }
 }
 
