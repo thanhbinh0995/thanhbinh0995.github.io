@@ -7,6 +7,18 @@ html, body {
     color: #555;
 }
 
+.animation {
+    -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+
+    -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+
 h1, h2, h3, p {
     font-family: 'Oxygen', sans-serif;
 }
@@ -108,7 +120,7 @@ a {
 
 .home {
     left: 5.5%;
-    top: 41.5%;
+    top: 30%;
     max-width: 12%;
 }
 
@@ -158,6 +170,7 @@ a {
     top: 24%;
     left: 19.5%;
     max-width: 8.5%;
+
 }
 
 .part .title {
