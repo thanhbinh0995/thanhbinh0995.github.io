@@ -1318,3 +1318,26 @@ a {
         line-height: 19pt;
     }
 }
+
+
+@keyframes fadeInDownCustom {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.fadeInDownCustom {
+    -webkit-animation-name: fadeInDownCustom;
+    animation-name: fadeInDownCustom
+}
+
+.wow {
+    visibility: hidden;
+}

@@ -30,35 +30,38 @@ $(document).ready(function () {
         }
     });
 
-    $(window).on("scroll", function() {
-        var scrollHeight = $(document).height();
-        var windowHeight = $(window).height();
-        var scrollTop = $(window).scrollTop();
-        var scrollPosition = $(window).height() + $(window).scrollTop();
-        var home = $(".home").css("left");
-        var image1 = $(".image-1").css("left");
-        var part1 = $(".part-1").css("left");
-        var image2 = $(".image-2").css("left");
-        var image3 = $(".image-3").css("left");
-        var part2 = $(".part-2").css("left");
-        var image4 = $(".image-4").css("left");
-        var part3 = $(".part-3").css("left");
-        var image5 = $(".image-5").css("left");
-        var image6 = $(".image-6").css("left");
-        var part4 = $(".part-4").css("left");
-        var image7 = $(".image-7").css("left");
-        var part5 = $(".part-5").css("left");
+    $(window).on("scroll", function () {
+        var home = $(".home");
+        var image1 = $(".image-1");
+        var part1 = $(".part-1");
+        var image2 = $(".image-2");
+        var image3 = $(".image-3");
+        var part2 = $(".part-2");
+        var image4 = $(".image-4");
+        var part3 = $(".part-3");
+        var image5 = $(".image-5");
+        var image6 = $(".image-6");
+        var part4 = $(".part-4");
+        var image7 = $(".image-7");
+        var part5 = $(".part-5");
         var a = 1;
-        if (scrollTop <= 150 && scrollTop >= 0) {
-            $(".home").addClass("animation").css("top", "41.5%")
-        } else {
-            $(".home").removeClass("wow bounceInDown")
-        }
 
-        if (scrollTop <= 2000 && scrollTop >= 1850) {
-            $(".image-3").addClass("animation").css("top", "17%")
-        } else {
-            $(".image-3").removeClass("animation")
+        var part1Offset = part1.offset().left;
+        var image2Offset = image2.offset().left;
+        var part3Offset = part3.offset().left;
+        var part4Offset = part4.offset().left;
+
+        if ((part1Offset > 900 && part1Offset < 1000)) {
+            part1.addClass("animated fadeInUp");
+        }
+        if ((image2Offset > 900 && image2Offset < 1000)) {
+            image2.addClass("animated fadeInRight");
+        }
+        if ((part3Offset > 900 && part3Offset < 1000)) {
+            part3.addClass("animated fadeInUp");
+        }
+        if ((part4Offset > 900 && part4Offset < 1000)) {
+            part4.addClass("animated fadeInUp");
         }
     });
 
