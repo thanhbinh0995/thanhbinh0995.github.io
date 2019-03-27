@@ -409,6 +409,145 @@ a {
     border: 1px solid #4277BD;
 }
 
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+    .logo img {
+        width: 55%;
+    }
+
+    .front {
+        z-index: 500;
+        top: 0;
+        width: 9500px;
+    }
+
+
+    .home {
+        left: 5.5%;
+        top: 41.5%;
+    }
+
+    .image-1 {
+        left: 14%;
+        top: 32%;
+    }
+
+    .image-1 img {
+        width: 170%;
+    }
+
+    .part .title {
+        font-size: 24px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+    .part-1 {
+        top: 33%;
+        left: 22%;
+        max-width: 8.5%;
+    }
+
+    .part .description {
+        margin-left: 0;
+    }
+
+    .image-2 {
+        left: 31%;
+        top: 27%;
+    }
+
+    .image-2 img {
+        height: auto;
+        width: 85%;
+    }
+
+    .image-3 {
+        left: 36.5%;
+        top: 18%;
+    }
+
+    .image-3 img {
+        height: auto;
+        width: 75%;
+    }
+
+    .part-2 {
+        left: 41%;
+        top: 27%;
+        max-width: 9.5%;
+    }
+
+    .part-2 .title {
+        max-width: 70%;
+    }
+
+    .part-2 .ml-0 {
+        margin-left: 0 !important;
+    }
+
+    .image-4 {
+        left: 47.5%;
+        top: 22.11%;
+    }
+
+    .image-4 img {
+        height: auto;
+        width: 140%;
+    }
+
+    .part-3 {
+        top: 40.83%;
+        left: 55%;
+        max-width: 7.8%;
+    }
+
+    .image-5 {
+        left: 64%;
+        top: 25.03%;
+    }
+
+    .image-5 img {
+        height: auto;
+        width: 75%;
+    }
+
+    .image-6 {
+        left: 69.5%;
+        top: 12.89%;
+    }
+
+    .image-6 img {
+        height: auto;
+        width: 75%;
+    }
+
+    .part-4 {
+        left: 74.5%;
+        top: 31.84%;
+        max-width: 8%;
+    }
+
+    .image-7 {
+        left: 82.5%;
+        top: 25.96%;
+    }
+
+    .image-7 img {
+        height: auto;
+        width: 150%;
+    }
+
+    .part-5 {
+        left: 91.5%;
+        top: 32%;
+        max-width: 10%;
+    }
+
+    .part-5 .title {
+        font-size: 24px;
+    }
+}
+
 @media only screen and (min-width: 1680px) and (max-width: 1920px) {
 
     .logo img {
