@@ -19,6 +19,10 @@ html, body {
     transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
 }
 
+.navbar-collapse {
+    cursor: pointer;
+}
+
 h1, h2, h3, p {
     font-family: 'Oxygen', sans-serif;
 }
@@ -420,7 +424,6 @@ a {
         width: 9500px;
     }
 
-
     .home {
         left: 5.5%;
         top: 41.5%;
@@ -559,7 +562,6 @@ a {
         top: 0;
         width: 9500px;
     }
-
 
     .home {
         left: 5.5%;
@@ -1458,7 +1460,6 @@ a {
         line-height: 19pt;
     }
 }
-
 
 @keyframes fadeInDownCustom {
     0% {
