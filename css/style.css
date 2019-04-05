@@ -7,7 +7,7 @@ html, body {
     color: #555;
 }
 
-:not(html, .nav-bar-mobile) {
+:not(html, .header, .nav-bar-mobile) {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0)
 }
