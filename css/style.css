@@ -7,6 +7,10 @@ html, body {
     color: #555;
 }
 
+input, button {
+    outline: none;
+}
+
 /*:not(html, .header, .nav-bar-mobile) {*/
     /*-webkit-transform: translate3d(0, 0, 0);*/
     /*transform: translate3d(0, 0, 0)*/
@@ -1448,6 +1452,7 @@ a {
         background: #4A90E2;
         color: #fff;
         text-align: center;
+        -webkit-appearance: none;
     }
 
     .sign-up-mobile input {
