@@ -1214,14 +1214,14 @@ a {
     }
 
     .nav-bar-mobile {
-        position: fixed;
+        position: relative;
         top: 0;
         right: 0;
         left: 0;
         z-index: 1030;
         background: #fff;
         display: inline-flex;
-        padding: 20pt 0;
+        padding: 15pt 0 0;
     }
 
     .logo-mobile {
@@ -1280,9 +1280,9 @@ a {
         display: flex;
         flex-direction: column;
         -ms-flex-direction: column;
-        margin-bottom: 0;
         list-style: none;
         margin-right: auto!important;
+        margin-bottom: 20px;
     }
 
     .nav-item {
