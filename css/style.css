@@ -21,6 +21,7 @@ html, body {
 
 .navbar-collapse {
     cursor: pointer;
+    transition: all 0.2s;
 }
 
 h1, h2, h3, p {
@@ -1238,6 +1239,10 @@ a {
         /*animation: rota 0.5s linear;*/
     }
 
+    .navbar-toggle {
+        transition: .3s transform ease-in-out;
+    }
+
     .navbar-toggle.collapsed {
         display: none;
     }
@@ -1245,9 +1250,9 @@ a {
     .navbar-toggle.in {
         display: block;
         position: fixed;
+        top: 70px;
         background: #fff;
         z-index: 999;
-        margin-top: 55pt;
         width: 100%;
     }
 
