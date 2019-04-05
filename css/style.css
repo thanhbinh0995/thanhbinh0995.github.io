@@ -1214,12 +1214,17 @@ a {
         right: 0;
         left: 0;
         z-index: 1030;
+        background: #fff;
+        display: inline-flex;
+        padding: 20pt 0;
     }
 
     .logo-mobile {
-        position: absolute;
-        top: 20pt;
-        left: 20pt;
+        padding-left: 20pt;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
 
     .logo-mobile img {
@@ -1227,9 +1232,12 @@ a {
     }
 
     .icon-chev-down {
-        position: absolute;
-        left: calc(50% - 17.5px);
-        top: 20pt;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        flex: 1;
     }
 
     .icon-chev-down img {
@@ -1285,14 +1293,15 @@ a {
     }
 
     .right-item-nav-mobile {
-        position: absolute;
-        right: 20pt;
-        top: 0;
+        padding-left: 20pt;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-right: 20pt;
     }
 
-    .sign-up {
-        margin-top: 20pt;
-    }
+    .sign-up {}
 
     .sign-up a {
         text-decoration: none;
