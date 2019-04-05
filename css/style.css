@@ -1242,7 +1242,7 @@ a {
         align-items: center;
         margin: 0 auto;
         justify-content: center;
-        flex: 1;
+        height: 50px;
     }
 
     .icon-chev-down img {
