@@ -7,10 +7,10 @@ html, body {
     color: #555;
 }
 
-:not(html, .header, .nav-bar-mobile) {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)
-}
+/*:not(html, .header, .nav-bar-mobile) {*/
+    /*-webkit-transform: translate3d(0, 0, 0);*/
+    /*transform: translate3d(0, 0, 0)*/
+/*}*/
 
 .animation {
     -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
@@ -1221,7 +1221,7 @@ a {
         z-index: 1030;
         background: #fff;
         display: inline-flex;
-        padding: 15pt 0 0;
+        padding: 10pt 0;
         width: 100%;
     }
 
@@ -1283,6 +1283,7 @@ a {
         list-style: none;
         margin-right: auto!important;
         margin-bottom: 20px;
+        margin-top: 0;
     }
 
     .nav-item {
