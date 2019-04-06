@@ -1205,6 +1205,10 @@ a {
         width: 100vw;
     }
 
+    body, .container {
+        overflow-x: hidden;
+    }
+
     .front {
         position: relative;
         width: auto;
