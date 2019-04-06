@@ -9,6 +9,7 @@ html, body {
 
 input, button {
     outline: none;
+    -webkit-appearance: none;
 }
 
 /*:not(html, .header, .nav-bar-mobile) {*/
