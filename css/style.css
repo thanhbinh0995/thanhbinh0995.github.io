@@ -1465,6 +1465,11 @@ a {
         -webkit-appearance: none;
     }
 
+    .sign-up-mobile .email::placeholder {
+        color: #fff;
+        font-size: 12pt;
+    }
+
     .sign-up-mobile input {
         font-size: 12pt;
     }
