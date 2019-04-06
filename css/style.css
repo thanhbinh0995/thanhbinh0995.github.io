@@ -1184,6 +1184,10 @@ a {
 
 @media only screen and (max-width: 767px) {
 
+    body {
+        position: relative;
+    }
+
     .nav-bar, .logo {
         display: none;
     }
