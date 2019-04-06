@@ -1230,7 +1230,7 @@ a {
     }
 
     .logo-mobile {
-        padding-left: 20pt;
+        padding-left: 12pt;
         vertical-align: middle;
         align-items: center;
         justify-content: center;
@@ -1307,7 +1307,7 @@ a {
         align-items: center;
         justify-content: center;
         display: flex;
-        padding-right: 20pt;
+        padding-right: 12pt;
     }
 
     .sign-up {}
