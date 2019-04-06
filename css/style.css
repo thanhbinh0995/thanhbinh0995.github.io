@@ -1382,7 +1382,7 @@ a {
         background: url('../img/ipad.png') no-repeat;
         width: 306pt;
         height: 150pt;
-        background-size: 306pt 150pt;
+        background-size: 100%;
         z-index: 0;
         position: relative;
         left: 107pt;
