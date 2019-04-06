@@ -13,8 +13,8 @@ input, button {
 }
 
 /*:not(html, .header, .nav-bar-mobile) {*/
-    /*-webkit-transform: translate3d(0, 0, 0);*/
-    /*transform: translate3d(0, 0, 0)*/
+/*-webkit-transform: translate3d(0, 0, 0);*/
+/*transform: translate3d(0, 0, 0)*/
 /*}*/
 
 .animation {
@@ -1295,7 +1295,7 @@ a {
         flex-direction: column;
         -ms-flex-direction: column;
         list-style: none;
-        margin-right: auto!important;
+        margin-right: auto !important;
         margin-bottom: 20px;
         margin-top: 0;
     }
@@ -1320,7 +1320,8 @@ a {
         padding-right: 12pt;
     }
 
-    .sign-up {}
+    .sign-up {
+    }
 
     .sign-up a {
         text-decoration: none;
@@ -1465,8 +1466,10 @@ a {
         -webkit-appearance: none;
     }
 
-    .sign-up-mobile .email::placeholder {
-        color: #fff;
+    .sign-up-mobile .email::placeholder, .sign-up-mobile .email::-webkit-input-placeholder,
+    .sign-up-mobile .email:-ms-input-placeholder,
+    .sign-up-mobile .email::-moz-placeholder {
+        color: #fff !important;
         font-size: 12pt;
     }
 
